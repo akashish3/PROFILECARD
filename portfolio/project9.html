@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html,head{
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+        }
+        .container{
+            background-color: #161515;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            flex-direction: column;
+        }
+    
+        h3{
+            background-image:linear-gradient(to right, #fff, #2276ff);
+            color: transparent;
+            background-clip: text;
+        }
+    
+        .box{
+            background-color: #1a1a1a;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px solid #ffad06;
+        }
+        img{
+        width: 200px;
+        height: 200px;
+        border-radius: 20px;
+        }
+
+        p{
+            color: #fff;
+            text-align: left;
+        }
+
+        b{
+            background-image: linear-gradient(to right,#ff105f, #ffad06);
+            color: transparent;
+            background-clip: text;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 100%; 
+        }
+
+        button{
+            color: #fff;
+            width: 100px;
+            background-color: #1a1a1a;
+            padding: 10px;
+            border: 2px solid #fff;
+            border-radius: 5px;
+            cursor: pointer;
+            background-image:linear-gradient(to right, #fff, #ffad06);
+            color: transparent;
+            background-clip: text;
+        }
+    
+        button:hover {
+            background-color: #333;
+        }
+    
+        @media (max-width: 600px) {
+            .box {
+                width: 90%;
+            }
+    
+            img {
+                max-width: 100px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h3>Portfolio</h3> 
+            <img src="Image/project9.png" alt="Profile"><br><br>
+            <p><b>Discription:</b><br><br>
+             This project is a personal portfolio website showcasing the work and skills <br> 
+             of Ashish Kumar, a Full Stack Developer from India. The website includes <br>
+             sections for the 
+             home, about, services, portfolio, and contact information.</p>
+           <div class="button-container">
+              <a href="https://github.com/akashish3/portfolio"><button>GetCode</button></a>
+              <a href="https://akashish3.github.io/portfolio/"><button>Live</button> </a>
+              <a href="index.html"><button>Home</button> </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

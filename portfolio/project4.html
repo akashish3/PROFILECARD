@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html,head{
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+        }
+        .container{
+            background-color: #161515;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            flex-direction: column;
+        }
+    
+        h3{
+            background-image:linear-gradient(to right, #fff, #2276ff);
+            color: transparent;
+            background-clip: text;
+        }
+    
+        .box{
+            background-color: #1a1a1a;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px solid #ffad06;
+        }
+        img{
+        width: 200px;
+        height: 200px;
+        border-radius: 20px;
+    }
+        span{
+            background-image:linear-gradient(to right, #ff105f, #ffad06);
+            color: transparent;
+            background-clip: text;
+            text-align: left;
+        }
+
+        p{
+            color: #fff;
+            text-align: left;
+        }
+        .button-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 100%; 
+        }
+        button{
+            color: #fff;
+            width: 100px;
+            background-color: #1a1a1a;
+            padding: 10px;
+            border: 2px solid #fff;
+            border-radius: 5px;
+            cursor: pointer;
+            background-image:linear-gradient(to right, #fff, #ffad06);
+            color: transparent;
+            background-clip: text;
+        }
+    
+        button:hover {
+            background-color: #333;
+        }
+
+        u{
+            background-image:linear-gradient(to right, #ff105f, #ffad06);
+            color: transparent;
+            background-clip: text;
+        }
+    
+        @media (max-width: 600px) {
+            .box {
+                width: 90%;
+            }
+    
+            img {
+                max-width: 100px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h3>Password Generator</h3> 
+            <img src="Image/project4.png" alt="Profile"><br><br>
+            <p><b><u>Discription:</u></b> <br><br>Random Password Generation: Generates a password using characters from the user's  <br> 
+                name, last name, a special symbol, and a number. <br>
+                Input Validation: Ensures all input fields are filled before generating the password.</p> <br>
+           <div class="button-container">
+              <a href="https://github.com/akashish3/Password-Generator"><button>GetCode</button></a>
+              <a href="https://akashish3.github.io/Password-Generator/"><button>Live</button> </a>
+              <a href="index.html"><button>Home</button> </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

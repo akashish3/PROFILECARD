@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="icon" href="Image/git.png">
+    <style>
+        html,head{
+            margin: 0;
+            padding: 0;
+            height: 150vh;
+        }
+        .container{
+            background-color: #161515;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 150vh;
+            text-align: center;
+            flex-direction: column;
+        }
+    
+        h3{
+            background-image:linear-gradient(to right, #fff, #2276ff);
+            color: transparent;
+            background-clip: text;
+        }
+    
+        .box{
+            background-color: #1a1a1a;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 10px;
+            border-radius: 10px;
+            border: 1px solid #ffad06;
+        }
+        img{
+        width: 200px;
+        height: 200px;
+        border-radius: 20px;
+    }
+        p{
+            color: #fff;
+            text-align: left;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 100%; 
+        }
+
+        b{
+            background-image:linear-gradient(to right, #ff105f, #ffad06);
+            color: transparent;
+            background-clip: text;
+        }
+
+       
+        button{
+            color: #fff;
+            width: 100px;
+            background-color: #1a1a1a;
+            padding: 10px;
+            border: 2px solid #fff;
+            border-radius: 5px;
+            cursor: pointer;
+            background-image:linear-gradient(to right, #fff, #ffad06);
+            color: transparent;
+            background-clip: text;
+        }
+    
+        button:hover {
+            background-color: #333;
+        }
+    
+        @media (max-width: 600px) {
+            .box {
+                width: 90%;
+            }
+    
+            img {
+                max-width: 100px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h3>Count Character</h3> 
+            <img src="Image/project1.png" alt="Profile"><br><br>
+            <p><b><u>Discription:</u></b> <br><br> Character Counter and Dark Mode Toggle
+                This project provides a simple web interface <br> for counting characters and words in
+                a text input, selecting characters, and toggling <br> 
+                between light and dark modes. <br><br> 
+                <b><u>Features:</u></b><br><br>
+                <b>Character Count:</b> Displays the number of characters in the input text.<br><br>
+                <b>Word Count:</b> Displays the number of words in the input text. <br> <br>
+                <b>Selected Character Count:</b>
+                 Displays the number of selected characters in the input text. <br><br>
+                 <b>Warning:</b> Shows a warning message if the character count exceeds 200.  <br><br>
+                 <b>Warning:Dark Mode Toggle:</b> Allows users to switch between light and dark modes.</p>
+           <div class="button-container">
+              <a href="https://github.com/akashish3/CountCharacter"><button>GetCode</button></a>
+              <a href="https://akashish3.github.io/CountCharacter/"><button>Live</button> </a>
+              <a href="index.html"><button>Home</button> </a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
